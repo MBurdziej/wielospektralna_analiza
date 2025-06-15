@@ -1,6 +1,7 @@
 Celem projektu było stworzenie środowiska umożliwiającego analizę obrazów obiektów
 zarejestrowanych w różnych zakresach widma. W ramach realizacji założeń opracowano dwa
 kluczowe moduły.
+
 Pierwszy z nich to stanowisko pracy kamery, które zostało zintegrowane z Raspberry Pi i
 wykorzystuje promieniowanie emitowane przez trzy różne rodzaje diod. System ten umożliwia
 wykonywanie zdjęć zarówno z oświetleniem zlokalizowanym nad badanym obiektem, jak i
@@ -12,12 +13,14 @@ także oprogramowanie umożliwiające wykonywanie serii zdjęć badanego obiektu
 diod z zakresów promieniowania UV, IR, VIS. Zdjęcia te są wykonywane w zróżnicowanych
 konfiguracjach oświetlenia, co pozwala na utworzenie dedykowanego zestawu danych (dataset)
 służącego do dalszej analizy i przetwarzania.
+
 Drugim z modułów projektu jest interfejs graficzny, który umożliwia użytkownikowi zastosowanie
 wybranych algorytmów przetwarzania obrazu na wskazanych zdjęciach z zestawu danych.
 W ramach jego przygotowania zaimplementowano kluczowe algorytmy przetwarzania obrazu.
 Interfejs został zaprojektowany w sposób intuicyjny, umożliwiający łatwy wybór zdjęć, konfigurację
 parametrów kluczowych algorytmów oraz wizualizację wyników w czasie rzeczywistym.
 Dzięki predefiniowanym operacjom użytkownik może szybko przetwarzać zdjęcia i uzyskiwać wyniki.
+
 Na podstawie wyników testów przeprowadzonych na zróżnicowanej grupie obiektów można
 stwierdzić, że cele projektu zostały w pełni zrealizowane. Przygotowane moduły, obejmujące
 stanowisko pracy kamery oraz graficzny interfejs użytkownika, umożliwiają efektywne i wszechstronne
